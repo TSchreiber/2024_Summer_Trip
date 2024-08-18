@@ -324,6 +324,21 @@ section {
     transform: translateY(calc(100% - 1.5rem));
     transition: transform 200ms ease;
 
+    .main {
+        font-size: 1.15rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        max-width: 70ch;
+        padding-inline: 0.5rem;
+        margin-inline: auto;
+        min-height: 60lvh;
+
+        a {
+            color: black;
+        }
+    }
+
     .expand-button {
         color: white;
         display: grid;
